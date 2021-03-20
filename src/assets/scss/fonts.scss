@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto-Regular.ttf?#iefix') format('truetype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto-Regular.ttf?#iefix') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url('../fonts/Roboto-Bold.ttf');
+  src: url('../fonts/Roboto-Bold.ttf?#iefix') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto BoldItalic';
+  src: url('../fonts/Roboto-BoldItalic.ttf');
+  src: url('../fonts/Roboto-BoldItalic.ttf?#iefix') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  src: url('../fonts/Roboto-Regular.ttf?#iefix') format('truetype');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Alio Bold';
+  src: url('../fonts/Alio Text Bold.ttf');
+  src: url('../fonts/Alio Text Bold.ttf?#iefix') format('truetype');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Merrant Bold';
+  src: url('../fonts/Merrant-Bold.otf');
+  src: url('../fonts/Merrant-Bold.otf?#iefix') format('opentype');
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Merrant Regular';
+  src: url('../fonts/Merrant-Regular.otf');
+  src: url('../fonts/Merrant-Regular.otf?#iefix') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merrant Light';
+  src: url('../fonts/Merrant-Light.otf');
+  src: url('../fonts/Merrant-Light.otf?#iefix') format('opentype');
+  font-style: normal;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "Merrant Light", sans-serif;
+
+  @include media-breakpoint-up(lg) {
+    font-size: 48px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Merrant Light", sans-serif;
+  line-height: 1.5em;
+}
+
+
+h4 {
+  font-family: "Merrant Light", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+
+p {
+  font-size: 16px;
+  color: $colorNavyBlue;
+  @include media-breakpoint-up(lg) {
+    font-size: 20px;
+  }
+}
