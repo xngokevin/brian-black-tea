@@ -66,34 +66,3 @@
   src: url('../fonts/Merrant-Light.otf?#iefix') format('opentype');
   font-style: normal;
 }
-
-h1 {
-  font-size: 32px;
-  font-family: "Merrant Light", sans-serif;
-
-  @include media-breakpoint-up(lg) {
-    font-size: 48px;
-  }
-}
-
-h3 {
-  font-size: 24px;
-  font-family: "Merrant Light", sans-serif;
-  line-height: 1.5em;
-}
-
-
-h4 {
-  font-family: "Merrant Light", sans-serif;
-  font-size: 16px;
-  line-height: 1.5em;
-}
-
-
-p {
-  font-size: 16px;
-  color: $colorNavyBlue;
-  @include media-breakpoint-up(lg) {
-    font-size: 20px;
-  }
-}
