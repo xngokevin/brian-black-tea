@@ -4,6 +4,8 @@ import "./assets/scss/main.scss";
 import { request } from "graphql-request";
 import { Navbar } from "./components";
 import Home from "./pages/home";
+import "jquery";
+import "react-bootstrap/dist/react-bootstrap.min";
 
 function App() {
   const [pages, setPages] = useState(null);
