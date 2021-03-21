@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 
-function GlobalNavbar() {
+function Navbar() {
   return (
     <div className={"c-navbar"}>
       <BsNavbar className={"fixed-top"} expand="lg">
@@ -11,9 +11,9 @@ function GlobalNavbar() {
           <BsNavbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#link">Our Story</Nav.Link>
-              <Nav.Link href="#link">Menu</Nav.Link>
-              <Nav.Link href="#link">Locations</Nav.Link>
+              <Nav.Link href="">Our Story</Nav.Link>
+              <Nav.Link href="">Menu</Nav.Link>
+              <Nav.Link href="">Locations</Nav.Link>
             </Nav>
           </BsNavbar.Collapse>
         </Container>
@@ -22,4 +22,4 @@ function GlobalNavbar() {
   );
 }
 
-export default GlobalNavbar;
+export default Navbar;

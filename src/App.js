@@ -5,7 +5,7 @@ import { request } from "graphql-request";
 import Home from "./pages/home";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
-import { GlobalNavbar } from "./components";
+import { Navbar } from "./components";
 
 function App() {
   const [pages, setPages] = useState(null);
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <GlobalNavbar />
+      <Navbar />
       <Router>
         <Route exact path="/" component={Home} />
       </Router>
