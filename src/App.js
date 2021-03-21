@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./assets/scss/main.scss";
 import { request } from "graphql-request";
-import { Navbar } from "./components";
 import Home from "./pages/home";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
+import { GlobalNavbar } from "./components";
 
 function App() {
   const [pages, setPages] = useState(null);
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <GlobalNavbar />
       <Router>
         <Route exact path="/" component={Home} />
       </Router>

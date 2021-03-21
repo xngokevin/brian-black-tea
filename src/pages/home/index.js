@@ -1,27 +1,16 @@
 import React, { Component } from "react";
-import Header from "./../../parts/header";
+import { FullHero } from "../../components";
 
 class Home extends Component {
-  state = {
-    title: "",
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
   componentDidMount() {
-    console.log("Component mojnted");
-    this.setState({ title: "Hello" }, () => {
-      console.log(this.state);
-    });
+    console.log("MOUTNIGN");
   }
 
   render() {
     return (
-      <div className={"container"}>
-        {this.state.title ? this.state.title : ""}
-        <Header></Header>
+      <div>
+        <FullHero />
+        <div className={"container"}>Hello World!</div>
       </div>
     );
   }

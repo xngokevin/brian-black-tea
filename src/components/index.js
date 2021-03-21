@@ -1,3 +1,4 @@
-import Navbar from "./navbar";
+import GlobalNavbar from "./navbars/navbar";
+import FullHero from "./heros/full-hero";
 
-export { Navbar };
+export { FullHero, GlobalNavbar };
