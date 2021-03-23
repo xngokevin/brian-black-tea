@@ -1,12 +1,14 @@
 import React from "react";
 import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div className={"c-navbar"}>
-      <BsNavbar className={"fixed-top"} expand="lg">
+      <BsNavbar className={"fixed-top navbar-dark"} expand="lg">
         <Container>
-          <BsNavbar.Brand href="/">React-Bootstrap</BsNavbar.Brand>
+          <BsNavbar.Brand href="/">
+            <img src={props.logoImg} alt={"logo"} />
+          </BsNavbar.Brand>
           <BsNavbar.Toggle aria-controls="basic-navbar-nav" />
           <BsNavbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

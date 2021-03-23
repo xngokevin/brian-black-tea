@@ -1,6 +1,30 @@
 .c-navbar {
 
-  color: $white;
+
+  nav {
+    //background-color: $darkGrey;
+    color: $white;
+  }
+
+  .navbar-brand, .nav-link {
+    color: $white !important;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+  }
+
+  .nav-link {
+    font-weight: bold;
+    @include media-breakpoint-up(lg) {
+      padding-left: 1rem !important;
+      padding-right: 1rem !important;
+    }
+  }
+
+  .navbar-toggler {
+    border: 0;
+  }
 
   .container {
     background: $transparent;

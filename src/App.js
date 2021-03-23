@@ -6,6 +6,7 @@ import Home from "./pages/home";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
 import { Navbar } from "./components";
+import logoImg from "./assets/images/bbt-logo.png";
 
 function App() {
   const [pages, setPages] = useState(null);
@@ -34,7 +35,7 @@ function App() {
 
   return (
     <>
-      <Navbar />
+      <Navbar logoImg={logoImg} />
       <Router>
         <Route exact path="/" component={Home} />
       </Router>
