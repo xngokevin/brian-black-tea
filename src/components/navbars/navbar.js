@@ -3,8 +3,32 @@ import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 import Hamburger from "../icons/hamburger";
 
 function Navbar(props) {
+  const [showNavbar, setShowNavbar] = React.useState(false);
+
+  React.useEffect(() => {
+    const updateNavbar = () => {
+      if (
+        document.documentElement.scrollTop > 299 ||
+        document.body.scrollTop > 299
+      ) {
+        setShowNavbar(true);
+      } else if (
+        document.documentElement.scrollTop < 300 ||
+        document.body.scrollTop < 300
+      ) {
+        setShowNavbar(false);
+      }
+    };
+
+    window.addEventListener("scroll", updateNavbar);
+
+    return function cleanup() {
+      window.removeEventListener("scroll", updateNavbar);
+    };
+  });
+
   return (
-    <div className={"c-navbar"}>
+    <div className={`c-navbar ${showNavbar ? "show" : ""}`}>
       <BsNavbar className={"fixed-top navbar-dark"} expand="lg">
         <Container>
           <BsNavbar.Brand href="/">

@@ -8,7 +8,9 @@ class Home extends Component {
     return (
       <div>
         <FullHero heroImg={heroImg} logoImg={logoImg} />
-        <div className={"container"}>Hello World!</div>
+        <div className={"container"} style={{ paddingBottom: 1000 }}>
+          Hello World!
+        </div>
       </div>
     );
   }

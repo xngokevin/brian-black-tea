@@ -1,11 +1,22 @@
 .c-navbar {
 
+  &.show {
+    nav {
+      opacity: 1 !important;
+    }
+  }
 
   nav {
-    //background-color: $darkGrey;
+    opacity: 0;
     color: $white;
-    //padding: 0;
+    background: $darkGrey !important;
     min-height: 100px;
+
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    transition: all .25s ease;
   }
 
   .navbar-brand, .nav-link {
@@ -28,6 +39,7 @@
 
   .nav-link {
     font-weight: bold;
+    background: $darkGrey !important;
     @include media-breakpoint-up(lg) {
       padding-left: 1rem !important;
       padding-right: 1rem !important;
