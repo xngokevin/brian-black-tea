@@ -1,5 +1,10 @@
 import React from "react";
-import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
+import {
+  Navbar as BsNavbar,
+  Nav,
+  Container,
+  NavDropdown,
+} from "react-bootstrap";
 import Hamburger from "../icons/hamburger";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
@@ -50,9 +55,27 @@ function Navbar(props) {
               <NavLink className={"nav-link"} to={"/our-story"}>
                 Our Story
               </NavLink>
-              <NavLink className={"nav-link"} to={"/menu"}>
-                Menu
-              </NavLink>
+              <div className="nav-item dropdown">
+                <NavLink
+                  className={"nav-link"}
+                  to={"/menu"}
+                  data-toggle={"dropdown"}
+                >
+                  Menu
+                </NavLink>
+                <ul className="dropdown-menu">
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Our Menu
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="#">
+                      Our Blends
+                    </a>
+                  </li>
+                </ul>
+              </div>
               <NavLink className={"nav-link"} to={"/locations"}>
                 Locations
               </NavLink>
