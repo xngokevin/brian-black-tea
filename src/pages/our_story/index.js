@@ -9,14 +9,7 @@ class OurStory extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <FullHero heroImg={heroImg} logoImg={logoImg} />
-        <div className={"container"} style={{ paddingBottom: 1000 }}>
-          Hello World!
-        </div>
-      </div>
-    );
+    return <div></div>;
   }
 }
 
