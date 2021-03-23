@@ -4,12 +4,13 @@
   width: 100%;
   background-color: $darkGrey;
   z-index: 9999;
-  display: none;
-  left: 0;
   top: 0;
+  transform: translateX(-100%);
+  transition: all .5s ease-in-out;
 
   &.open {
     display: block;
+    transform: translateX(0);
   }
 
   .header {

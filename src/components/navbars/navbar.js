@@ -10,10 +10,7 @@ function Navbar(props) {
           <BsNavbar.Brand href="/">
             <img src={props.logoImg} alt={"logo"} />
           </BsNavbar.Brand>
-          <Hamburger
-            open={props.isNavDrawerOpen}
-            onClick={props.toggleNavDrawer}
-          />
+          <Hamburger open={false} onClick={props.toggleNavDrawer} />
           <BsNavbar.Collapse>
             <Nav className="ml-auto">
               <Nav.Link href="/">Home</Nav.Link>

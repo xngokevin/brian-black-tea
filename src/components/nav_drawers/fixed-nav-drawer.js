@@ -7,10 +7,7 @@ function FixedNavDrawer(props) {
     >
       <div className={"header"}>
         <div className={"container d-flex justify-content-end"}>
-          <Hamburger
-            open={props.isNavDrawerOpen}
-            onClick={props.toggleNavDrawer}
-          />
+          <Hamburger open={true} onClick={props.toggleNavDrawer} />
         </div>
       </div>
       <div className={"container"}>Hello</div>
