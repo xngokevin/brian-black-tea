@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, useLocation } from "react-router-dom";
 import "./assets/scss/main.scss";
 import { request } from "graphql-request";
 import { Home, OurStory, Menu, Locations } from "./pages";
@@ -36,7 +36,6 @@ class App extends Component {
   };
 
   toggleNavDrawer = () => {
-    console.log(this.state);
     this.setState({ isNavDrawerOpen: !this.state.isNavDrawerOpen });
   };
 

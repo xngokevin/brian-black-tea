@@ -2,8 +2,10 @@ import React from "react";
 import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 import Hamburger from "../icons/hamburger";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 function Navbar(props) {
+  const location = useLocation();
   const [showNavbar, setShowNavbar] = React.useState(false);
 
   React.useEffect(() => {
@@ -29,7 +31,11 @@ function Navbar(props) {
   });
 
   return (
-    <div className={`c-navbar ${showNavbar ? "show" : ""}`}>
+    <div
+      className={`c-navbar ${
+        showNavbar || location.pathname !== "/" ? "show" : ""
+      }`}
+    >
       <BsNavbar className={"fixed-top navbar-dark"} expand="lg">
         <Container>
           <BsNavbar.Brand href="/">

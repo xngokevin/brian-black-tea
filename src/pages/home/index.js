@@ -4,6 +4,10 @@ import heroImg from "./../../assets/images/heroes/banner.png";
 import logoImg from "./../../assets/images/bbt-logo.png";
 
 class Home extends Component {
+  componentDidMount() {
+    document.title = "Brian Black Tea - Home";
+  }
+
   render() {
     return (
       <div>
