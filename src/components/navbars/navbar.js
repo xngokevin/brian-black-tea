@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 import Hamburger from "../icons/hamburger";
+import { NavLink } from "react-router-dom";
 
 function Navbar(props) {
   const [showNavbar, setShowNavbar] = React.useState(false);
@@ -37,10 +38,18 @@ function Navbar(props) {
           <Hamburger open={false} onClick={props.toggleNavDrawer} />
           <BsNavbar.Collapse>
             <Nav className="ml-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="">Our Story</Nav.Link>
-              <Nav.Link href="">Menu</Nav.Link>
-              <Nav.Link href="">Locations</Nav.Link>
+              <NavLink className={"nav-link"} to={"/"} exact>
+                Home
+              </NavLink>
+              <NavLink className={"nav-link"} to={"/our-story"}>
+                Our Story
+              </NavLink>
+              <NavLink className={"nav-link"} to={"/menu"}>
+                Menu
+              </NavLink>
+              <NavLink className={"nav-link"} to={"/locations"}>
+                Locations
+              </NavLink>
             </Nav>
           </BsNavbar.Collapse>
         </Container>

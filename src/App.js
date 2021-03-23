@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./assets/scss/main.scss";
 import { request } from "graphql-request";
-import Home from "./pages/home";
+import { Home, OurStory, Menu, Locations } from "./pages";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
 import { Navbar, FixedNavDrawer } from "./components";
@@ -44,17 +44,20 @@ class App extends Component {
     let { isNavDrawerOpen } = this.state;
     return (
       <>
-        <Navbar
-          logoImg={logoImg}
-          isNavDrawerOpen={isNavDrawerOpen}
-          toggleNavDrawer={this.toggleNavDrawer}
-        />
-        <FixedNavDrawer
-          isNavDrawerOpen={isNavDrawerOpen}
-          toggleNavDrawer={this.toggleNavDrawer}
-        />
         <Router>
+          <Navbar
+            logoImg={logoImg}
+            isNavDrawerOpen={isNavDrawerOpen}
+            toggleNavDrawer={this.toggleNavDrawer}
+          />
+          <FixedNavDrawer
+            isNavDrawerOpen={isNavDrawerOpen}
+            toggleNavDrawer={this.toggleNavDrawer}
+          />
           <Route exact path="/" component={Home} />
+          <Route exact path="/our-story" component={OurStory} />
+          <Route exact path="/menu" component={Menu} />
+          <Route exact path="/locations" component={Locations} />
         </Router>
       </>
     );
