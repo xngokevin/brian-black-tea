@@ -1,0 +1,33 @@
+.c-fixed-nav-drawer {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: $darkGrey;
+  z-index: 9999;
+  display: none;
+  left: 0;
+  top: 0;
+
+  &.open {
+    display: block;
+  }
+
+  .header {
+    height: 100px;
+    position: relative;
+    padding: 0.5rem 1rem;
+    .container {
+      @include media-breakpoint-down(md) {
+        justify-content: flex-end;
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+  }
+
+  .c-hamburger {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+  }
+}

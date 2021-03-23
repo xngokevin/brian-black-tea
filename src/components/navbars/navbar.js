@@ -3,8 +3,6 @@ import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 import Hamburger from "../icons/hamburger";
 
 function Navbar(props) {
-  const [navbarCollapse, setNavbarCollapse] = React.useState(false);
-
   return (
     <div className={"c-navbar"}>
       <BsNavbar className={"fixed-top navbar-dark"} expand="lg">
@@ -12,13 +10,9 @@ function Navbar(props) {
           <BsNavbar.Brand href="/">
             <img src={props.logoImg} alt={"logo"} />
           </BsNavbar.Brand>
-          {/*<BsNavbar.Toggle />*/}
           <Hamburger
-            open={navbarCollapse}
-            setNavbarCollapse={() => {
-              console.log("here");
-              setNavbarCollapse(!navbarCollapse);
-            }}
+            open={props.isNavDrawerOpen}
+            onClick={props.toggleNavDrawer}
           />
           <BsNavbar.Collapse>
             <Nav className="ml-auto">

@@ -3,7 +3,7 @@ function Hamburger(props) {
     <div className={"c-hamburger"}>
       <div
         className={`hamburger ${props.open ? "open" : ""}`}
-        onClick={props.setNavbarCollapse}
+        onClick={props.onClick}
       >
         <span />
         <span />
