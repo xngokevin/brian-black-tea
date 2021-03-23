@@ -65,12 +65,12 @@ function Navbar(props) {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/menu">
                       Our Menu
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/menu/our-blends">
                       Our Blends
                     </a>
                   </li>
