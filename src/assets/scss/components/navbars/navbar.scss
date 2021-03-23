@@ -4,14 +4,26 @@
   nav {
     //background-color: $darkGrey;
     color: $white;
+    //padding: 0;
+    min-height: 100px;
   }
 
   .navbar-brand, .nav-link {
     color: $white !important;
   }
 
+  .navbar-brand {
+    @include media-breakpoint-down(md) {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      margin: 0 !important;
+    }
+  }
+
+
   .navbar-brand img {
-    width: 100px;
+    width: 125px;
   }
 
   .nav-link {
@@ -26,7 +38,22 @@
     border: 0;
   }
 
+  .navbar-nav {
+    background: $black;
+  }
+
+  //Todo: Handle padding and background color for mobile layout of navdrawer
   .container {
     background: $transparent;
+    @include media-breakpoint-down(md) {
+      justify-content: flex-end;
+    }
+  }
+
+  .c-hamburger {
+    display: block;
+    @include media-breakpoint-up(lg) {
+      display: none;
+    }
   }
 }
