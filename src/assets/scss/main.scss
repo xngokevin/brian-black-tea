@@ -22,11 +22,11 @@ body {
 }
 
 h1 {
-  font-size: 32px;
-  font-family: "Merrant Light", sans-serif;
+  font-family: "Georgia", sans-serif;
+  font-size: 28px;
 
   @include media-breakpoint-up(lg) {
-    font-size: 48px;
+    font-size: 72px;
   }
 }
 
@@ -45,8 +45,9 @@ h4 {
 
 
 p {
+  font-family: "Georgia", sans-serif;
   font-size: 16px;
   @include media-breakpoint-up(lg) {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
