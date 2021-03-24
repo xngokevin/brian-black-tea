@@ -79,6 +79,9 @@ function Navbar(props) {
               <NavLink className={"nav-link"} to={"/locations"}>
                 Locations
               </NavLink>
+              <NavLink className={"nav-link"} to={"/press"}>
+                Press
+              </NavLink>
             </Nav>
           </BsNavbar.Collapse>
         </Container>
