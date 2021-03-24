@@ -40,6 +40,10 @@ class App extends Component {
     this.setState({ isNavDrawerOpen: !this.state.isNavDrawerOpen });
   };
 
+  scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   render() {
     let { isNavDrawerOpen } = this.state;
     return (
@@ -59,11 +63,7 @@ class App extends Component {
           <Route exact path="/menu" component={Menu} />
           <Route exact path="/locations" component={Locations} />
           <GenericFooter />
-          <TopArrow
-            onClick={() => {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-          />
+          <TopArrow onClick={this.scrollToTop} />
         </Router>
       </>
     );
