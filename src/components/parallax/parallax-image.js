@@ -7,9 +7,9 @@ function ParallaxImage(props) {
         bgImage={props.image}
         bgImageAlt=""
         strength={600}
-        bgImageStyle={{ height: "100%", width: "100%", objectFit: "cover" }}
+        bgImageStyle={{ width: "100%", objectFit: "cover", top: "-200px" }}
       >
-        <div style={{ height: "1600px" }} />
+        <div style={{ height: "1000px" }} />
       </Parallax>
     </div>
   );
