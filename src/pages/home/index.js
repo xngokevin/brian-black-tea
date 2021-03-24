@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import { FullHero, TwoColText } from "../../components";
+import {
+  FullHero,
+  TwoColText,
+  ThreeColText,
+  ParallaxImage,
+} from "../../components";
+
 import heroImg from "./../../assets/images/heroes/banner.png";
 import logoImg from "./../../assets/images/bbt-logo.png";
-import ThreeColText from "../../components/bbt_text/three-col-text";
-
 import teaLeavesImage from "./../../assets/images/bbt/tea-leaves.jpg";
 import threeTeasImage from "./../../assets/images/bbt/three-teas.jpeg";
+import singleTeaTopViewImage from "./../../assets/images/bbt/single-tea-top-view.jpg";
 
 class Home extends Component {
   componentDidMount() {
@@ -39,6 +44,7 @@ class Home extends Component {
           }
           image={threeTeasImage}
         />
+        <ParallaxImage image={singleTeaTopViewImage} />
       </div>
     );
   }
