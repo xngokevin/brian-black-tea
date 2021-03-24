@@ -4,6 +4,7 @@ import TextBlock from "./bbt_text/text-block";
 import ThreeColText from "./bbt_text/three-col-text";
 import TwoColText from "./bbt_text/two-col-text";
 import ParallaxImage from "./parallax/parallax-image";
+import TopArrow from "./buttons/top-arrow";
 
 export {
   FullHero,
@@ -12,4 +13,5 @@ export {
   ThreeColText,
   TwoColText,
   ParallaxImage,
+  TopArrow,
 };

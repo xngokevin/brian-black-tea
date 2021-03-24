@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Navbar as BsNavbar,
-  Nav,
-  Container,
-  NavDropdown,
-} from "react-bootstrap";
+import { Navbar as BsNavbar, Nav, Container } from "react-bootstrap";
 import Hamburger from "./../../components/icons/hamburger";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";

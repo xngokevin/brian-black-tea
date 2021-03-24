@@ -5,8 +5,8 @@ import { request } from "graphql-request";
 import { Home, OurStory, Menu, Locations } from "./pages";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
-import { FixedNavDrawer } from "./components";
-import { Navbar } from "./layout";
+import { FixedNavDrawer, TopArrow } from "./components";
+import { Navbar, GenericFooter } from "./layout";
 import logoImg from "./assets/images/bbt-logo.png";
 
 class App extends Component {
@@ -58,6 +58,12 @@ class App extends Component {
           <Route exact path="/our-story" component={OurStory} />
           <Route exact path="/menu" component={Menu} />
           <Route exact path="/locations" component={Locations} />
+          <GenericFooter />
+          <TopArrow
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }}
+          />
         </Router>
       </>
     );
