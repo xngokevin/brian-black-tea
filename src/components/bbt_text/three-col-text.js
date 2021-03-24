@@ -13,16 +13,7 @@ function ThreeColText(props) {
             <img src={teaLeaves} alt={"col-image"} />
           </div>
           <div className={"col-sm-12 col-lg-4"}>
-            <TextBlock
-              h1={"About Us"}
-              p={
-                "Established in 2005 in Taiwan, Brian Black Tea is committed to\n" +
-                "              bringing exceptional black tea tasting experience to the world. By\n" +
-                "              using premium ingredients and artisanal tea brewing craft, we are\n" +
-                "              proud to share these incredible drinks with you, showing you the\n" +
-                "              true beauty of black tea."
-              }
-            />
+            <TextBlock h1={props.h1} p={props.p} />
           </div>
           <div className={"col-sm-12 col-lg-4 image-container"}>
             <img src={teaLeaves} alt={"col-image"} />

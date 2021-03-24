@@ -21,4 +21,11 @@
       max-width: 350px;
     }
   }
+
+  h1 {
+    margin-bottom: 10px;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 30px;
+    }
+  }
 }
