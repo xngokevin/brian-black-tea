@@ -6,10 +6,10 @@ function ParallaxImage(props) {
       <Parallax
         bgImage={props.image}
         bgImageAlt=""
-        strength={800}
-        bgImageStyle={{ height: "100%", objectFit: "cover" }}
+        strength={600}
+        bgImageStyle={{ height: "100%", width: "100%", objectFit: "cover" }}
       >
-        <div style={{ paddingBottom: "82.5%" }} />
+        <div style={{ height: "1600px" }} />
       </Parallax>
     </div>
   );

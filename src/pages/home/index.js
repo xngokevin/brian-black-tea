@@ -29,6 +29,7 @@ class Home extends Component {
           image1={teaLeavesImage}
           image2={threeTeasImage}
         />
+        <ParallaxImage image={singleTeaTopViewImage} />
         <TwoColText
           h1={"Premium Ingredients"}
           p={
@@ -44,7 +45,6 @@ class Home extends Component {
           }
           image={threeTeasImage}
         />
-        <ParallaxImage image={singleTeaTopViewImage} />
       </div>
     );
   }

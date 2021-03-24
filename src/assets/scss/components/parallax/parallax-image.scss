@@ -1,3 +1,6 @@
 .c-parallax-image {
-  padding-bottom: 82.5%;
+  display: none;
+  @include media-breakpoint-up(lg) {
+    display: block;
+  }
 }
