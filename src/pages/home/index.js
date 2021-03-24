@@ -39,10 +39,6 @@ class Home extends Component {
           }
           image={threeTeasImage}
         />
-
-        <div className={"container"} style={{ paddingBottom: 1000 }}>
-          Hello World!
-        </div>
       </div>
     );
   }
