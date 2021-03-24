@@ -21,6 +21,8 @@ class Home extends Component {
           p={
             "Established in 2005 in Taiwan, Brian Black Tea is committed to bringing exceptional black tea tasting experience to the world. By using premium ingredients and artisanal tea brewing craft, we are proud to share these incredible drinks with you, showing you the true beauty of black tea."
           }
+          image1={teaLeavesImage}
+          image2={threeTeasImage}
         />
         <TwoColText
           h1={"Premium Ingredients"}
