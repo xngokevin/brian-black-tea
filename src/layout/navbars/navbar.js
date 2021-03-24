@@ -5,7 +5,7 @@ import {
   Container,
   NavDropdown,
 } from "react-bootstrap";
-import Hamburger from "../icons/hamburger";
+import Hamburger from "./../../components/icons/hamburger";
 import { NavLink } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
@@ -37,7 +37,7 @@ function Navbar(props) {
 
   return (
     <div
-      className={`c-navbar ${
+      className={`l-navbar ${
         showNavbar || location.pathname !== "/" ? "show" : ""
       }`}
     >

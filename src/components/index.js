@@ -1,4 +1,3 @@
-import Navbar from "./navbars/navbar";
 import FullHero from "./heros/full-hero";
 import FixedNavDrawer from "./nav_drawers/fixed-nav-drawer";
 import TextBlock from "./bbt_text/text-block";
@@ -8,7 +7,6 @@ import ParallaxImage from "./parallax/parallax-image";
 
 export {
   FullHero,
-  Navbar,
   FixedNavDrawer,
   TextBlock,
   ThreeColText,

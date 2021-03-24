@@ -5,7 +5,8 @@ import { request } from "graphql-request";
 import { Home, OurStory, Menu, Locations } from "./pages";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
-import { Navbar, FixedNavDrawer } from "./components";
+import { FixedNavDrawer } from "./components";
+import { Navbar } from "./layout";
 import logoImg from "./assets/images/bbt-logo.png";
 
 class App extends Component {
