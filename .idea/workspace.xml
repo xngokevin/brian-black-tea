@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/brian-black-tea.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/bbt_text/text-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/bbt_text/text-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bbt_text/text-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bbt_text/text-block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bbt_text/two-col-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bbt_text/two-col-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/our_story/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/our_story/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +54,7 @@
       <recent name="$PROJECT_DIR$/src/assets/scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/bbt" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
       <recent name="$PROJECT_DIR$/src/assets/scss/components/heros" />
       <recent name="$PROJECT_DIR$/src/assets/scss/components/navbars" />
@@ -89,7 +75,7 @@
       <workItem from="1616636471664" duration="18000" />
       <workItem from="1616636502273" duration="104000" />
       <workItem from="1616636620357" duration="86000" />
-      <workItem from="1616636709216" duration="1520000" />
+      <workItem from="1616636709216" duration="1812000" />
     </task>
     <servers />
   </component>

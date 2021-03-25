@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { BannerText, TwoColText } from "../../components";
-import heroImg from "./../../assets/images/heroes/banner.png";
-import logoImg from "./../../assets/images/bbt-logo.png";
-import teaLeavesImage from "../../assets/images/bbt/tea-leaves.jpg";
+import teaFarmImage from "../../assets/images/bbt/tea-farm.png";
 import threeTeasImage from "../../assets/images/bbt/three-teas.jpeg";
 
 class OurStory extends Component {
@@ -19,7 +17,7 @@ class OurStory extends Component {
           p={
             "Our founder, Brian, was born and raised in Taiwan, the home of the original milk tea and various blends of world-famous tea. Growing up, Brian developed a passion for tea and as time passed, he noticed the flavors he was familiar with were nowhere to be found. Even after countless visits to renowned tea shops throughout Taiwan, he still could not find the taste from his childhood. Determined to bring back the nostalgic flavor that he grew up loving, Brian set out to take matters into his own hands and founded the brand that we have come to know and love, Brian Black Tea."
           }
-          image={teaLeavesImage}
+          image={threeTeasImage}
           light={true}
           reverse={true}
         />
@@ -32,7 +30,7 @@ class OurStory extends Component {
             <div><b>Sustainability.</b><div>
             We strive to treat the environment with care by implementing sustainable methods in serving our customers and communities.
           `}
-          image={threeTeasImage}
+          image={teaFarmImage}
           light={true}
         />
       </>
