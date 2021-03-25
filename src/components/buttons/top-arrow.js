@@ -5,7 +5,7 @@ function TopArrow(props) {
   const [showTopArrow, setShowTopArrow] = React.useState(false);
 
   React.useEffect(() => {
-    const updateNavbar = () => {
+    const updateTopArrow = () => {
       if (
         document.documentElement.scrollTop > 19 ||
         document.body.scrollTop > 19
@@ -19,10 +19,10 @@ function TopArrow(props) {
       }
     };
 
-    window.addEventListener("scroll", updateNavbar);
+    window.addEventListener("scroll", updateTopArrow);
 
     return function cleanup() {
-      window.removeEventListener("scroll", updateNavbar);
+      window.removeEventListener("scroll", updateTopArrow);
     };
   });
 
