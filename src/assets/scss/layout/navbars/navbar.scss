@@ -1,7 +1,8 @@
 .l-navbar {
-
+  pointer-events: none;
   &.show {
     nav {
+      pointer-events: all;
       opacity: 1 !important;
     }
   }
