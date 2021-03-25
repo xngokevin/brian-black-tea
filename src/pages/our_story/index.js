@@ -11,7 +11,7 @@ class OurStory extends Component {
   render() {
     return (
       <>
-        <BannerText />
+        <BannerText text1={"Our"} text2={"Story"} />
         <TwoColText
           h1={"Brand Origin"}
           p={
