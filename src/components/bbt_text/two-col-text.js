@@ -7,7 +7,7 @@ function TwoColText(props) {
       <div className={"container-fluid"}>
         <Row className={`${props.reverse ? "flex-row-reverse" : ""}`}>
           <div className={"col-sm-12 col-lg-6"}>
-            <TextBlock h1={props.h1} p={props.p} />
+            <TextBlock h1={props.h1} p={props.p} light={props.light} />
           </div>
           <div className={"col-sm-12 col-lg-6 image-container"}>
             <img src={props.image} alt={"col-image"} />

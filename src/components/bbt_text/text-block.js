@@ -1,9 +1,11 @@
+import parse from "html-react-parser";
+
 function TextBlock(props) {
   return (
-    <div className={"c-text-block"}>
+    <div className={`c-text-block ${props.light ? "light" : ""}`}>
       <div className={"text-container"}>
         <h1>{props.h1}</h1>
-        <p>{props.p}</p>
+        <p>{parse(props.p)}</p>
       </div>
     </div>
   );

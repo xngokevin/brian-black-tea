@@ -24,10 +24,17 @@ body {
 
 h1 {
   font-family: "Georgia", sans-serif;
-  font-size: 28px;
+  font-size: 48px;
 
   @include media-breakpoint-up(lg) {
     font-size: 72px;
+  }
+}
+
+h2 {
+  font-size: 24px;
+  @include media-breakpoint-up(lg) {
+    font-size: 36px;
   }
 }
 
