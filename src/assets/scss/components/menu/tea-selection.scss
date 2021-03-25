@@ -1,0 +1,45 @@
+.c-tea-selection {
+  color: $black;
+  padding-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 0;
+  }
+
+  @include media-breakpoint-up(lg) {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  tr {
+    padding-bottom: 10px;
+  }
+
+  th {
+    font-weight: normal;
+  }
+
+  .item-row {
+    >td {
+      padding-bottom: 10px;
+    }
+  }
+
+  .item-name {
+    h4 {
+      margin-bottom: 0;
+    }
+    .item-chinese-name {
+      //margin-bottom: 10px;
+    }
+  }
+}

@@ -40,7 +40,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  font-family: "Merrant Light", sans-serif;
+  font-family: "Georgia", sans-serif;
   line-height: 1.5em;
 }
 
@@ -48,7 +48,9 @@ h3 {
 h4 {
   font-family: "Merrant Light", sans-serif;
   font-size: 16px;
-  line-height: 1.5em;
+  @include media-breakpoint-up(lg) {
+    font-size: 22px;
+  }
 }
 
 

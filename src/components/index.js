@@ -6,6 +6,8 @@ import ThreeColText from "./bbt_text/three-col-text";
 import TwoColText from "./bbt_text/two-col-text";
 import ParallaxImage from "./parallax/parallax-image";
 import TopArrow from "./buttons/top-arrow";
+import TeaSelection from "./menu/tea-selection";
+import Modifications from "./menu/modifications";
 
 export {
   FullHero,
@@ -16,4 +18,6 @@ export {
   TwoColText,
   ParallaxImage,
   TopArrow,
+  TeaSelection,
+  Modifications,
 };

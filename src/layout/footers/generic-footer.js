@@ -3,7 +3,6 @@ import fbIcon from "./../../assets/images/icons/ic-fb.svg";
 import igIcon from "./../../assets/images/icons/ic-ig.svg";
 import twIcon from "./../../assets/images/icons/ic-tw.svg";
 import yelpIcon from "./../../assets/images/icons/ic-yelp.svg";
-import { TopArrow } from "../../components";
 
 function GenericFooter(props) {
   return (
