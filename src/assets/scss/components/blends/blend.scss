@@ -1,0 +1,29 @@
+.c-blend {
+  color: $black;
+  cursor: pointer;
+  padding-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 50px;
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  .image-container {
+    position: relative;
+    padding-bottom: 82.5%;
+    width: 100%;
+    border: 1px solid  $black;
+    margin-bottom: 10px;
+  }
+  .blend-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

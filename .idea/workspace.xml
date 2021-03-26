@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/blends/blend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/blends/blend.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/blends/bbt-blends.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/blends/bbt-blends.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu/blend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blends/blend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blends/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/our_blends/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/blends/blend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blends/blend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/our_blends/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/our_blends/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +58,11 @@
       <recent name="$PROJECT_DIR$/src/assets/scss" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images/menu" />
       <recent name="$PROJECT_DIR$/src/components/blends" />
       <recent name="$PROJECT_DIR$/src/assets/images/icons" />
       <recent name="$PROJECT_DIR$/src/assets/images/bbt" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
-      <recent name="$PROJECT_DIR$/src/assets/scss/components/heros" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,7 +82,7 @@
       <workItem from="1616636620357" duration="86000" />
       <workItem from="1616636709216" duration="11087000" />
       <workItem from="1616692308100" duration="1749000" />
-      <workItem from="1616736315963" duration="970000" />
+      <workItem from="1616736315963" duration="2454000" />
     </task>
     <servers />
   </component>
