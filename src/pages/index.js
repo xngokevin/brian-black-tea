@@ -2,6 +2,6 @@ import Home from "./home";
 import OurStory from "./our_story";
 import Menu from "./menu";
 import Locations from "./locations";
-import Blends from "./blends";
+import OurBlends from "./our_blends";
 
-export { Home, OurStory, Menu, Locations, Blends };
+export { Home, OurStory, Menu, Locations, OurBlends };

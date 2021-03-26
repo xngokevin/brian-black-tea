@@ -8,7 +8,7 @@ import ParallaxImage from "./parallax/parallax-image";
 import TopArrow from "./buttons/top-arrow";
 import TeaSelection from "./menu/tea-selection";
 import Modifications from "./menu/modifications";
-import Blend from "./menu/blend";
+import Blend from "./blends/blend";
 
 export {
   FullHero,
