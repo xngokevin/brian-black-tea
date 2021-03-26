@@ -60,14 +60,21 @@ function Navbar(props) {
                 </NavLink>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/menu">
+                    <NavLink
+                      className={"dropdown-item"}
+                      to={"/menu"}
+                      exact={true}
+                    >
                       Our Menu
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="/menu/our-blends">
+                    <NavLink
+                      className={"dropdown-item"}
+                      to={"/menu/our-blends"}
+                    >
                       Our Blends
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </div>

@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/blends/blend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/blends/blend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/blends/bbt-blends.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/blends/bbt-blends.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blends/blend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blends/blend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/our_blends/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/our_blends/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/navbars/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbars/navbar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +46,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +79,7 @@
       <workItem from="1616636620357" duration="86000" />
       <workItem from="1616636709216" duration="11087000" />
       <workItem from="1616692308100" duration="1749000" />
-      <workItem from="1616736315963" duration="2454000" />
+      <workItem from="1616736315963" duration="2734000" />
     </task>
     <servers />
   </component>
