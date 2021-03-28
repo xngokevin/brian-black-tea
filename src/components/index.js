@@ -12,6 +12,7 @@ import Blend from "./blends/blend";
 import BlendModal from "./blends/blend-modal";
 import Location from "./location/location";
 import PrimaryButton from "./buttons/primary-button";
+import Press from "./presses/press";
 
 export {
   FullHero,
@@ -28,4 +29,5 @@ export {
   BlendModal,
   Location,
   PrimaryButton,
+  Press,
 };

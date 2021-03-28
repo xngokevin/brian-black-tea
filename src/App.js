@@ -2,7 +2,14 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./assets/scss/main.scss";
 import { request } from "graphql-request";
-import { Home, OurStory, Menu, Locations, OurBlends } from "./pages";
+import {
+  Home,
+  OurStory,
+  Menu,
+  Locations,
+  OurBlends,
+  OurPresses,
+} from "./pages";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
 import { FixedNavDrawer, TopArrow } from "./components";
@@ -63,6 +70,7 @@ class App extends Component {
           <Route exact path="/menu" component={Menu} />
           <Route exact path="/menu/our-blends" component={OurBlends} />
           <Route exact path="/locations" component={Locations} />
+          <Route exact path="/our-presses" component={OurPresses} />
           <GenericFooter />
           <TopArrow onClick={this.scrollToTop} />
         </Router>

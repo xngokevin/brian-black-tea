@@ -1,0 +1,23 @@
+.c-press {
+  color: $black;
+
+  padding-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .fhd-image-container {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    img {
+      border-radius: 5px;
+    }
+  }
+
+}
