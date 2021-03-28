@@ -1,6 +1,4 @@
-import { Container, Modal } from "react-bootstrap";
 import { useState } from "react";
-import Hamburger from "../icons/hamburger";
 import { BlendModal } from "../index";
 
 function Blend(props) {

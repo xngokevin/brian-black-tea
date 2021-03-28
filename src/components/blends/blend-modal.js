@@ -24,14 +24,14 @@ function BlendModal(props) {
             <h4>{blend.chineseTitle}</h4>
           </div>
           <div className={"square-image-container"}>
-            <img src={blend.image} alt={"blend-image"} />
+            <img src={blend.image} alt={"blend"} />
           </div>
           <p>{blend.description}</p>
         </div>
         <div className={"d-none d-md-block"}>
           <div className={"d-flex flex-row"}>
             <div className={"image-container"}>
-              <img src={blend.image} alt={"blend-image"} />
+              <img src={blend.image} alt={"blend"} />
             </div>
             <div className={"text-container"}>
               <Hamburger open={true} onClick={props.handleClose} />

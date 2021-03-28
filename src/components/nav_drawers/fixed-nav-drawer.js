@@ -1,6 +1,5 @@
 import Hamburger from "../icons/hamburger";
 import { NavLink, useLocation } from "react-router-dom";
-import { Nav } from "react-bootstrap";
 import React from "react";
 
 function FixedNavDrawer(props) {

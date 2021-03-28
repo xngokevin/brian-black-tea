@@ -5,6 +5,7 @@ function PrimaryButton(props) {
       href={props.href}
       onClick={props.onClick}
       target={"_blank"}
+      rel="noreferrer"
     >
       {props.children}
     </a>

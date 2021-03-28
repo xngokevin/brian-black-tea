@@ -4,6 +4,7 @@ import { BbtLocations } from "../../layout";
 
 const locations = [
   {
+    id: 1,
     title: "Fremont",
     city: "Fremont",
     address: "123 Losem Street",
@@ -23,6 +24,7 @@ const locations = [
     ],
   },
   {
+    id: 2,
     title: "Fremont",
     city: "Fremont",
     address: "123 Losem Street",

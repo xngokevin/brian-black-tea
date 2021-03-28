@@ -20,9 +20,9 @@ function Location(props) {
           <div>{location.phone}</div>
         </div>
         <div className={"operating-hours-container"}>
-          {location.operatingHours.map(function (operatingHour) {
+          {location.operatingHours.map(function (operatingHour, index) {
             return (
-              <div>
+              <div key={`location-${location.id}-operatingHour-${index}`}>
                 <span>
                   {operatingHour.title} {operatingHour.hours}
                 </span>

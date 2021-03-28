@@ -10,7 +10,7 @@ function TwoColText(props) {
             <TextBlock h1={props.h1} p={props.p} light={props.light} />
           </div>
           <div className={"col-sm-12 col-lg-6 image-container"}>
-            <img src={props.image} alt={"col-image"} />
+            <img src={props.image} alt={"two-col-oimg"} />
           </div>
         </Row>
       </div>

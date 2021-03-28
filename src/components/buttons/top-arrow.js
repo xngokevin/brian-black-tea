@@ -29,7 +29,7 @@ function TopArrow(props) {
   return (
     <>
       {showTopArrow && (
-        <a className={"c-top-arrow"} onClick={props.onClick}>
+        <a className={"c-top-arrow"} onClick={props.onClick} href={"#"}>
           <img src={topArrowIcon} alt={"icon"} />
         </a>
       )}

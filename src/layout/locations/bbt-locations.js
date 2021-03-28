@@ -8,9 +8,9 @@ function BbtLocations(props) {
     <div className={"l-bbt-locations"}>
       <Container>
         <div className={"row"}>
-          {locations.map(function (location) {
+          {locations.map(function (location, index) {
             return (
-              <div className={"col-sm-12 col-md-6"}>
+              <div className={"col-sm-12 col-md-6"} key={location.id}>
                 <Location location={location} />
               </div>
             );
