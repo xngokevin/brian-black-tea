@@ -3,18 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bbt_text/three-col-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bbt_text/three-col-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/bbt_text/two-col-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/bbt_text/two-col-text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blends/blend-modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blends/blend-modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/blends/blend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/blends/blend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/primary-button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/primary-button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/buttons/top-arrow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/buttons/top-arrow.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/location/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav_drawers/fixed-nav-drawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav_drawers/fixed-nav-drawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presses/press.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presses/press.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/locations/bbt-locations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/locations/bbt-locations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/navbars/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/navbars/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/locations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/locations/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/ic-fb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-ig.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/ic-ig.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/icons/ic-yelp.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/icons/ic-yelp.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,7 @@
       <workItem from="1616692308100" duration="1749000" />
       <workItem from="1616736315963" duration="5811000" />
       <workItem from="1616775345572" duration="660000" />
-      <workItem from="1616903020745" duration="9559000" />
+      <workItem from="1616903020745" duration="9670000" />
     </task>
     <servers />
   </component>
