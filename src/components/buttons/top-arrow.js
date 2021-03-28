@@ -1,4 +1,4 @@
-import topArrowIcon from "./../../assets/images/icons/ic-top-arrow.svg";
+import topArrowIcon from "./../../assets/images/icons/ic-top-arrow.gif";
 import React from "react";
 
 function TopArrow(props) {
