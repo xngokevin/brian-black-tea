@@ -1,0 +1,30 @@
+.c-location {
+  color: $black;
+  padding-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 50px;
+  }
+
+  h2 {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  .fhd-image-container {
+    border-radius: 5px;
+    margin-bottom: 15px;
+    img {
+      border-radius: 5px;
+    }
+  }
+
+  .title-container, .phone-container, .address-container, .operating-hours-container {
+    margin-bottom: 15px;
+  }
+
+  .operating-hours-container {
+    font-size: 18px;
+  }
+
+}

@@ -10,6 +10,7 @@ import TeaSelection from "./menu/tea-selection";
 import Modifications from "./menu/modifications";
 import Blend from "./blends/blend";
 import BlendModal from "./blends/blend-modal";
+import Location from "./location/location";
 
 export {
   FullHero,
@@ -24,4 +25,5 @@ export {
   Modifications,
   Blend,
   BlendModal,
+  Location,
 };
