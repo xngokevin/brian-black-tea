@@ -30,7 +30,7 @@ function GenericFooter(props) {
             <div>Tel: 123.456.7890</div>
             <div>general@brianblackteausa.com</div>
           </div>
-          <span>2020 by Brian Black Tea.</span>
+          <span>2020 by Brian Black Tea, K.N. Web Development Studio</span>
         </div>
       </div>
     </div>
