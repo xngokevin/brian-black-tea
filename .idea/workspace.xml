@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/layout/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/layout/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/locations/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/locations/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/location/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/location/location.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +83,7 @@
       <workItem from="1616692308100" duration="1749000" />
       <workItem from="1616736315963" duration="5811000" />
       <workItem from="1616775345572" duration="660000" />
-      <workItem from="1616903020745" duration="4464000" />
+      <workItem from="1616903020745" duration="4983000" />
     </task>
     <servers />
   </component>

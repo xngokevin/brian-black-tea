@@ -1,9 +1,11 @@
+import { PrimaryButton } from "../index";
+
 function Location(props) {
   var location = props.location;
 
   return (
     <div className={"c-location"}>
-      <div className={"d-flex flex-column"}>
+      <div className={"d-flex flex-column align-items-start"}>
         <div className={"fhd-image-container"}>
           <img src={location.image.default} alt={"location"} />
         </div>
@@ -28,6 +30,9 @@ function Location(props) {
             );
           })}
         </div>
+        <PrimaryButton href={"https://google.com"}>
+          Get Directions
+        </PrimaryButton>
       </div>
     </div>
   );
