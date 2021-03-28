@@ -44,7 +44,13 @@ class App extends Component {
   };
 
   toggleNavDrawer = () => {
-    this.setState({ isNavDrawerOpen: !this.state.isNavDrawerOpen });
+    this.setState({ isNavDrawerOpen: !this.state.isNavDrawerOpen }, () => {
+      if (this.state.isNavDrawerOpen) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "scroll";
+      }
+    });
   };
 
   scrollToTop = () => {

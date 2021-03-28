@@ -51,13 +51,14 @@ function Navbar(props) {
                 Our Story
               </NavLink>
               <div className="nav-item dropdown">
-                <NavLink
-                  className={"nav-link"}
-                  to={"/menu"}
+                <a
+                  className={`nav-link ${
+                    location.pathname.indexOf("menu") !== -1 ? "active" : ""
+                  }`}
                   data-toggle={"dropdown"}
                 >
                   Menu
-                </NavLink>
+                </a>
                 <ul className="dropdown-menu">
                   <li>
                     <NavLink

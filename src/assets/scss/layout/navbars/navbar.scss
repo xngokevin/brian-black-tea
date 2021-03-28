@@ -96,5 +96,8 @@
     &:hover {
       background: transparent;
     }
+    &.active {
+      text-decoration: underline;
+    }
   }
 }
