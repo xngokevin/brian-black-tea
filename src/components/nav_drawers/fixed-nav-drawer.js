@@ -1,6 +1,10 @@
 import Hamburger from "../icons/hamburger";
 import { NavLink, useLocation } from "react-router-dom";
 import React from "react";
+import fbIcon from "../../assets/images/icons/ic-fb.svg";
+import yelpIcon from "../../assets/images/icons/ic-yelp.svg";
+import igIcon from "../../assets/images/icons/ic-ig.svg";
+import twIcon from "../../assets/images/icons/ic-tw.svg";
 
 function FixedNavDrawer(props) {
   const location = useLocation();
@@ -81,6 +85,20 @@ function FixedNavDrawer(props) {
         >
           Press
         </NavLink>
+        <div className={"socials-container d-flex flex-row"}>
+          <a className={"social-icon"} href={""}>
+            <img src={fbIcon} alt={"facebook"} />
+          </a>
+          <a className={"social-icon"} href={""}>
+            <img src={yelpIcon} alt={"yelp"} />
+          </a>
+          <a className={"social-icon"} href={""}>
+            <img src={igIcon} alt={"facebook"} />
+          </a>
+          <a className={"social-icon"} href={""}>
+            <img src={twIcon} alt={"facebook"} />
+          </a>
+        </div>
       </div>
     </div>
   );
