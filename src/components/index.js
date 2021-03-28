@@ -9,6 +9,7 @@ import TopArrow from "./buttons/top-arrow";
 import TeaSelection from "./menu/tea-selection";
 import Modifications from "./menu/modifications";
 import Blend from "./blends/blend";
+import BlendModal from "./blends/blend-modal";
 
 export {
   FullHero,
@@ -22,4 +23,5 @@ export {
   TeaSelection,
   Modifications,
   Blend,
+  BlendModal,
 };

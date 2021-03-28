@@ -17,23 +17,4 @@
     display: block;
     transform: translateX(0);
   }
-
-  .header {
-    height: 100px;
-    position: relative;
-    padding: 0.5rem 1rem;
-    .container {
-      @include media-breakpoint-down(md) {
-        justify-content: flex-end;
-        padding-left: 0;
-        padding-right: 0;
-      }
-    }
-  }
-
-  .c-hamburger {
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-  }
 }

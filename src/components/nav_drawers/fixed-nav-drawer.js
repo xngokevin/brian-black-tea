@@ -5,7 +5,7 @@ function FixedNavDrawer(props) {
     <div
       className={`c-fixed-nav-drawer ${props.isNavDrawerOpen ? "open" : ""}`}
     >
-      <div className={"header"}>
+      <div className={"header-close"}>
         <div className={"container d-flex justify-content-end"}>
           <Hamburger open={true} onClick={props.toggleNavDrawer} />
         </div>

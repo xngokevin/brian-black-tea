@@ -9,8 +9,6 @@ import iceLittleImage from "./../../assets/images/icons/ice-little.svg";
 import iceNoneImage from "./../../assets/images/icons/ice-none.svg";
 
 function Modifications(props) {
-  const menu = props.menu;
-
   return (
     <div className={"c-modifications"}>
       <div className={"modification-wrapper"}>
