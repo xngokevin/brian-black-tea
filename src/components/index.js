@@ -13,6 +13,7 @@ import BlendModal from "./blends/blend-modal";
 import Location from "./location/location";
 import PrimaryButton from "./buttons/primary-button";
 import Press from "./presses/press";
+import ScrollToTop from "./scroll_to_top/scroll-to-top";
 
 export {
   FullHero,
@@ -30,4 +31,5 @@ export {
   Location,
   PrimaryButton,
   Press,
+  ScrollToTop,
 };

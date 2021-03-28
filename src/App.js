@@ -12,7 +12,7 @@ import {
 } from "./pages";
 import "jquery";
 import "react-bootstrap/dist/react-bootstrap.min";
-import { FixedNavDrawer, TopArrow } from "./components";
+import { FixedNavDrawer, ScrollToTop, TopArrow } from "./components";
 import { Navbar, GenericFooter } from "./layout";
 import logoImg from "./assets/images/bbt-logo.png";
 
@@ -73,6 +73,7 @@ class App extends Component {
           <Route exact path="/our-presses" component={OurPresses} />
           <GenericFooter />
           <TopArrow onClick={this.scrollToTop} />
+          <ScrollToTop />
         </Router>
       </>
     );
