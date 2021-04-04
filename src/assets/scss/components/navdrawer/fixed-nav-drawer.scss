@@ -24,7 +24,8 @@
 
   .nav-container {
     flex: 1 1 auto;
-    overflow: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
     position: relative;
   }
 

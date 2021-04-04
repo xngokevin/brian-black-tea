@@ -8,9 +8,9 @@ function BbtBlends(props) {
     <div className={"l-bbt-blends"}>
       <Container>
         <Row>
-          {blends.map(function (blend) {
+          {blends.map(function (blend, index) {
             return (
-              <div className={"col-sm-12 col-md-4"}>
+              <div className={"col-sm-12 col-md-4"} key={`blends-${index}`}>
                 <Blend blend={blend} />
               </div>
             );

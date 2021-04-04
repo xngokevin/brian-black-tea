@@ -8,19 +8,14 @@ class Menu extends Component {
 
   componentDidMount() {
     document.title = "Brian Black Tea - Menu";
-
-    graphBbtService.getMenuSections().then((menuSections) => {
-      this.setState({ menuSections: menuSections });
-    });
   }
 
   render() {
-    const { menuSections } = this.state;
-
+    const { menuSections } = this.props;
     return (
       <>
         <BannerText text1={"Our"} text2={"Menu"} />
-        {menuSections && <BbtMenu menuSections={menuSections} />}
+        {menuSections.length > 0 && <BbtMenu menuSections={menuSections} />}
       </>
     );
   }
