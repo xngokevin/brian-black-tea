@@ -17,28 +17,6 @@ import { Navbar, GenericFooter } from "./layout";
 import logoImg from "./assets/images/bbt-logo.png";
 
 class App extends Component {
-  // useEffect(() => {
-  //   const fetchPages = async () => {
-  //     const { pages } = await request(
-  //       "https://api-us-west-2.graphcms.com/v2/ckmhb64bw8qv801z6ge8y1yje/master",
-  //       `
-  //         {
-  //           pages {
-  //             id
-  //             title
-  //             slug
-  //           }
-  //         }
-  //       `
-  //     );
-  //
-  //     console.log(pages);
-  //     setPages(pages);
-  //   };
-  //
-  //   fetchPages();
-  // }, []);
-
   state = {
     isNavDrawerOpen: false,
   };

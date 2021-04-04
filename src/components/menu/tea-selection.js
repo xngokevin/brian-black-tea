@@ -24,7 +24,7 @@ function TeaSelection(props) {
           </tr>
         </thead>
         <tbody>
-          {menu.items.map(function (item) {
+          {menu.menuItems.map(function (item) {
             return (
               <tr className={"item-row"} key={`tea-${item.title}`}>
                 <td className={"item-name"}>
