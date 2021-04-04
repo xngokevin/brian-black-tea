@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d67441ad-ba7e-474e-aa84-1896541f4f9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/components/navdrawer/fixed-nav-drawer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/components/navdrawer/fixed-nav-drawer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/blends/bbt-blends.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/menu/bbt-menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/menu/bbt-menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/menu/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +83,7 @@
       <workItem from="1616903020745" duration="11497000" />
       <workItem from="1616961247021" duration="574000" />
       <workItem from="1616963998200" duration="29000" />
-      <workItem from="1617503370611" duration="5146000" />
+      <workItem from="1617503370611" duration="5207000" />
     </task>
     <servers />
   </component>

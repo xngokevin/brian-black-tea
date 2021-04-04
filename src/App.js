@@ -23,7 +23,6 @@ class App extends Component {
 
   componentDidMount() {
     graphBbtService.getMenuSections().then((menuSections) => {
-      console.log(menuSections);
       this.setState({ menuSections: menuSections });
     });
   }
